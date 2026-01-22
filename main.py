@@ -12,7 +12,7 @@ class SQLSyncApp:
         self.create_widgets()
 
     def create_widgets(self):
-        # Frame de conexión principal
+        # Frame de conexión principal test commit git 
         frame_main = ttk.LabelFrame(self.root, text="Base de Datos Principal")
         frame_main.grid(row=0, column=0, padx=10, pady=5, sticky="ew")
         self.main_conn_vars = self.create_conn_fields(frame_main)
